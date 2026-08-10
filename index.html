@@ -72,7 +72,6 @@
             border-bottom: 2px solid var(--primary-color);
             padding-bottom: 2px;
         }
-
         /* Main Container */
         .container {
             max-width: 900px;
@@ -157,7 +156,6 @@
             font-weight: 600;
             color: var(--primary-color);
         }
-
         /* Publications */
         .pub-title {
             font-weight: 600;
@@ -179,7 +177,6 @@
             margin-left: 0.5rem;
             vertical-align: middle;
         }
-
         /* Responsive */
         @media (max-width: 768px) {
             header {
@@ -200,7 +197,6 @@
     </style>
 </head>
 <body>
-
 <nav>
     <ul>
         <li><a href="#about">About Me</a></li>
@@ -211,7 +207,6 @@
         <li><a href="#skills">Technical Skills</a></li>
     </ul>
 </nav>
-
 <div class="container">
     <header>
         <img src="profile.jpg" alt="Ojaswee" class="profile-img">
@@ -228,11 +223,10 @@
             </div>
         </div>
     </header>
-
 <section id="about">
     <h2>About Me</h2>
     <p>
-        I'm an AI/ML researcher and developer who’s deeply interested in building systems that are not just accurate, but reliable and safe in real-world settings. My work mainly focuses on computer vision, adversarial robustness, and natural language processing. At the core, I’m driven by a simple question: how can we make AI systems people can truly trust?
+        I'm an AI/ML researcher and developer who’s deeply interested in building systems that are not just accurate, but reliable and safe in real-world settings. My work mainly focuses on computer vision, adversarial robustness, and multimodal deep learning. At the core, I’m driven by a simple question: how can we make AI systems people can truly trust?
     </p>
     
     <p>
@@ -247,7 +241,6 @@
         <strong>Beyond the Lab:</strong> Outside of work, I enjoy staying active, running, trekking, and playing table tennis or frisbee whenever I get the chance. In my downtime, I like to relax with video games or simply spend quality time with friends.
     </p>
 </section>
-
     <section id="education">
         <h2>Education</h2>
         <div class="item">
@@ -261,64 +254,59 @@
             </ul>
         </div>
     </section>
-
     <section id="experience">
         <h2>Experience</h2>
-
         <div class="item">
             <div class="item-title">
                 <span>Project Associate | <a href="https://www.vistalabiisc.com/" target="_blank">ViSTA Lab</a>, IISc Bangalore</span>
                 <span>Oct 2024 – Present</span>
             </div>
             <ul>
-                <li>Facilitated large-scale data collection for 99 professional heavy-vehicle drivers using a 3-DOF driving simulator and Tobii Pro Glasses 2 to capture realistic driving behavior in heterogeneous traffic.</li>
-                <li>Applied ANOVA testing to the extracted ocular metrics (saccades, fixations, pupil dilation) to independently evaluate cognitive load variations across different time-to-collision (TTC) based ADAS alert configurations.</li>
+                <li>Implemented a Time-to-Collision (TTC)-based Forward Collision Warning system within a 3-DOF driving simulator and built a synchronized multimodal data pipeline integrating eye-tracking (Tobii Pro Glasses 2), heart-rate monitors, vehicle telemetry (CAN data), depth maps, and camera feeds for large-scale driver behavior analysis.</li>
+                <li>Facilitated data collection from 100 professional Indian heavy-vehicle drivers navigating heterogeneous traffic conditions on the driving simulator, capturing physiological, behavioral, and driving-performance data.</li>
+                <li>Conducted statistical analyses (ANOVA) of ocular metrics (saccades, fixations, pupil dilation) to evaluate cognitive workload fluctuations triggered by ADAS alerts and complex driving maneuvers.</li>
             </ul>
         </div>
-
         <div class="item">
             <div class="item-title">
                 <span>Product Developer and Researcher | <a href="https://pict.edu/" target="_blank">PICT</a>, Pune</span>
                 <span>June 2024 – Sept 2024</span>
             </div>
             <ul>
-                <li>Engineered a computer vision model for recognizing Indian Sign Language gestures in videos using a custom ISL dataset using MediaPipe landmarks.</li>
+                <li>Built a custom Indian Sign Language (ISL) dataset by recording gesture videos with deaf participants fluent in ISL, and engineered a gesture recognition pipeline using MediaPipe landmarks with data augmentation to reduce bias.</li>
                 <li>Achieved 95.6% accuracy with a Video Vision Transformer on the test set following extensive model architecture and hyperparameter optimization.</li>
             </ul>
         </div>
-
         <div class="item">
             <div class="item-title">
                 <span>MS Research Intern | <a href="https://iab-rubric.org/" target="_blank">IAB Lab</a>, IIT Jodhpur</span>
                 <span>Aug 2023 – May 2024</span>
             </div>
             <ul>
-                <li>Developed robust, attention-guided adversarial patches targeting state-of-the-art object detectors (YOLO, DETR) by maximizing network loss.</li>
-                <li>Optimized the trade-off between patch naturalness (texture and color variations) and perturbation effectiveness, successfully degrading the AP50-95 object detection metric by up to 28.3%.</li>
+                <li>Developed robust, attention-guided adversarial patches targeting state-of-the-art object detectors (YOLO, DETR) by using attention maps to maximize network loss.</li>
+                <li>Optimized the trade-off between patch plausibility (texture and color variations) and perturbation effectiveness, demonstrating substantial attack transferability to two-stage detectors and successfully degrading the AP50-95 object detection metric by up to 28.3%.</li>
             </ul>
         </div>
-
         <div class="item">
             <div class="item-title">
                 <span>Summer Research Intern | <a href="https://ihub-drishti.ai/" target="_blank">TIH, iHub Drishti</a>, IIT Jodhpur</span>
                 <span>May 2023 – Jul 2023</span>
             </div>
             <ul>
-                <li>Independently implemented fundamental adversarial attack techniques including FGSM, BIM, and adversarial patches across datasets like MNIST, CIFAR-10, and a subset of ImageNet.</li>
+                <li>Independently implemented fundamental adversarial attack techniques including FGSM, BIM, and adversarial patches across datasets like MNIST, CIFAR-10, EuroSAT, and a subset of ImageNet.</li>
             </ul>
         </div>
-
         <div class="item">
             <div class="item-title">
                 <span>BS Thesis Researcher | <a href="https://sites.google.com/iiitd.ac.in/agarwalakshay/labiiserb?authuser=0" target="_blank">TBV Lab</a>, IISER Bhopal</span>
                 <span>Aug 2022 – Apr 2023</span>
             </div>
             <ul>
-                <li>Benchmarked image classifiers for physical out-of-distribution detection, evaluating SOTA models (XceptionNet, MobileNet, Vision Transformers) on self-curated adversarial patched datasets.</li>
+                <li>Benchmarked image classifiers for physical out-of-distribution detection, evaluating SOTA models (XceptionNet, VGG16, MobileNet, NASMobileNet, Vision Transformers) on self-curated adversarial patched datasets from COCO and ImageNet.</li>
+                <li>Presented findings at the Out-Of-Distribution Generalization in Computer Vision Workshop, part of ICCV 2023.</li>
             </ul>
         </div>
     </section>
-
     <section id="publications">
         <h2>Publications</h2>
         
@@ -327,26 +315,22 @@
             <div class="pub-authors"><strong>Ojaswee</strong>, et al.</div>
             <div class="pub-venue">IEEE International Conference on Intelligent Transportation Systems (ITSC), 2026</div>
         </div>
-
         <div class="item">
             <div class="pub-title"><a href="https://ieeexplore.ieee.org/document/10774678" target="_blank">Indian Sign Language Recognition Using Video Vision Transformer</a></div>
             <div class="pub-authors"><strong>Ojaswee</strong>, R. Sreemathy, M. Turuk, J. Jagdale, M. Anish</div>
             <div class="pub-venue">3rd International Conference for Advancement in Technology (ICONAT), 2024</div>
         </div>
-
         <div class="item">
             <div class="pub-title"><a href="https://openaccess.thecvf.com/content/ICCV2023W/OODCV/html/Ojaswee_Benchmarking_Image_Classifiers_for_Physical_Out-of-Distribution_Examples_Detection_ICCVW_2023_paper.html" target="_blank">Benchmarking Image Classifiers for Physical Out-of-Distribution Examples Detection</a></div>
             <div class="pub-authors"><strong>Ojaswee</strong>, A. Agarwal, N. Ratha</div>
             <div class="pub-venue">IEEE/CVF International Conference on Computer Vision (ICCV) Workshops, 2023</div>
         </div>
-
         <div class="item">
             <div class="pub-title"><a href="https://robustart.github.io/long_paper/28.pdf" target="_blank">Robustness Benchmarking of Image Classifiers for Physical Adversarial Attack Detection</a></div>
             <div class="pub-authors"><strong>Ojaswee</strong>, A. Agarwal</div>
             <div class="pub-venue">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, 2023</div>
         </div>
     </section>
-
     <section id="projects">
         <h2>Projects</h2>
         
@@ -360,7 +344,6 @@
                 <li>Achieved a maximum F1-Score of 0.721 with Transformer and 0.856 with Linear SVC after rigorous tuning.</li>
             </ul>
         </div>
-
         <div class="item">
             <div class="item-title">
                 <span>Monthly Inflation Forecasting of India</span>
@@ -372,24 +355,22 @@
             </ul>
         </div>
     </section>
-
     <section id="skills">
         <h2>Technical Skills</h2>
         <div class="skills-grid">
             <div class="skills-category">Programming Languages:</div>
             <div>Python, SQL</div>
+            <div class="skills-category">Modeling Techniques:</div>
+            <div>Regression, Classification, Clustering, Deep Neural Networks, CNN, Image Classification, Object Detection, Object Tracking, Image Segmentation, NLP, RAG, Statistical Analysis, Time-Series Forecasting</div>
             <div class="skills-category">Libraries & Frameworks:</div>
-            <div>PyTorch, TensorFlow, Keras, OpenCV, Ultralytics, Pandas, Scikit-Learn, Matplotlib, NLTK</div>
+            <div>PyTorch, TensorFlow, Keras, OpenCV, Ultralytics, Pandas, Scikit-Learn, Matplotlib, NLTK, LangChain</div>
             <div class="skills-category">Tools & Software:</div>
-            <div>Github, Visual Studio Code, Roboflow, Docker, CUDA, Linux, SPSS, Tobii Pro Lab</div>
+            <div>GitHub, Visual Studio Code, Roboflow, Docker, CUDA, Linux, SPSS, Tobii Pro Lab</div>
         </div>
     </section>
-
     <footer style="text-align: center; margin-top: 4rem; padding-top: 2rem; border-top: 1px solid #eaeaea; color: #777; font-size: 0.9rem;">
         <p>&copy; 2026 Ojaswee. Built from scratch.</p>
     </footer>
-
 </div>
-
 </body>
 </html>
